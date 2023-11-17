@@ -15,5 +15,6 @@ class ContactList : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
+//        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
     }
 }
