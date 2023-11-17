@@ -36,6 +36,8 @@
             android:layout_marginTop="48dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:endIconMode="clear_text"
+            app:startIconDrawable="@drawable/baseline_email_24"
             app:layout_constraintTop_toBottomOf="@+id/titleLogin">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -46,7 +48,6 @@
                 android:gravity="top|start"
                 android:hint="@string/email_placeHolder"
                 android:inputType="textEmailAddress"
-                android:paddingStart="0dp"
                 android:textAlignment="viewStart"
                 android:textAllCaps="false"
                 android:textSize="16sp"
@@ -60,9 +61,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="24sp"
+            app:counterEnabled="true"
+            app:counterMaxLength="20"
             app:layout_constraintEnd_toEndOf="@+id/textLayoutEmail"
             app:layout_constraintStart_toStartOf="@+id/textLayoutEmail"
             app:layout_constraintTop_toBottomOf="@+id/textLayoutEmail"
+            app:startIconDrawable="@drawable/baseline_password_24"
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -73,7 +77,6 @@
                 android:gravity="top|start"
                 android:hint="@string/passwordHintText"
                 android:inputType="textPassword"
-                android:paddingStart="0dp"
                 android:textAlignment="textStart"
                 android:textSize="16sp"
                 tools:ignore="RtlSymmetry" />
