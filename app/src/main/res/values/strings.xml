@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Technical Test GLI -2502018234_William-Gunawan</string>
+    <string name="email_placeHolder">Email Anda</string>
+    <string name="title_LoginPage">Login</string>
+    <string name="passwordHint">Enter password</string>
+    <string name="passwordHintText">Password Anda</string>
+    <string name="forgotPassword">Lupa Password ?</string>
+    <string name="loginButton">Masuk</string>
+    <string name="name_contact">CS Telkomsel</string>
+    <string name="number_contact">081293551227</string>
+    <string name="contact_listItem">Contact List</string>
+    <string name="backButton_todo">button back</string>
+</resources>
